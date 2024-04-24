@@ -1,0 +1,25 @@
+
+export const KeyMap = {
+    CTRL_C: '\u0003',
+    ESC: '\u001B',
+    UP: '\u001b[A',
+    DOWN: '\u001b[B',
+    RIGHT: '\u001b[C',
+    LEFT: '\u001b[D',
+    SLASH: '\u002F',
+    BACKSLASH: '\u005C',
+    BACKSPACE: '\u0008',
+    DELETE: '\u007F',
+    ENTER_LF: '\u000A',
+    ENTER_CR: '\u000D',
+    LETTERS: [
+        'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+    ],
+    NUMBERS: [ '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' ],
+    SPECIAL_CHARACTERS: [ '-', ' ' ],
+    COMMA: ',',
+    PERIOD: '.',
+    LEFT_CARROT: '<',
+    RIGHT_CARROT: '>',
+}
